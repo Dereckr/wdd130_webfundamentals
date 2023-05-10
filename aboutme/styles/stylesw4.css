@@ -1,0 +1,41 @@
+main{
+    background-color: rgb(255, 154, 171);
+    text-align: center;
+}
+
+.soft{
+    color: black;
+}
+
+img {
+    width: 20%
+}
+
+main h1, h2, h4 {
+    color: white;
+}
+
+.dark{
+    color: black;
+    display: block;
+    text-align: left;
+    width: 40%;
+    margin: 0 auto;
+}
+
+
+main h1{
+    font-size: 3em;
+}
+
+main h1:hover {
+    color: black;
+}
+
+.message {
+    color: white;
+    font-size: 2em;
+    display: block;
+    margin: 0 auto;
+    width:30%
+}
