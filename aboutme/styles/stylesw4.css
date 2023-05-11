@@ -1,5 +1,5 @@
 main{
-    background-color: rgb(255, 154, 171);
+    background-color: rgb(252,166,201,255);
     text-align: center;
 }
 
@@ -36,6 +36,10 @@ main h1:hover {
     color: white;
     font-size: 2em;
     display: block;
-    margin: 0 auto;
+    margin: 20px auto;
     width:30%
+}
+
+main p {
+    margin: 0 auto;
 }
