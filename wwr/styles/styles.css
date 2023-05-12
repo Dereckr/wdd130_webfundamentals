@@ -29,6 +29,10 @@ main section {
     height: 725px;
 }
 
+body{
+    background-color: white;
+}
+
 header{
     background-color: #0077b6;
 }
