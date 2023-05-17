@@ -1,4 +1,6 @@
-
+body{
+    margin: 0;
+}
 nav, footer {
     background-color: steelblue;
     color: white;
@@ -6,15 +8,21 @@ nav, footer {
     text-align: center
 }
 
+nav{
+    padding: 25px;
+}
+
 a{
     color: white;
     margin: 40px;
     font-size: 1.5em;
+    padding: 25px;
 }
 
 h1 {
     color: blue; 
-      text-align: center;
+    text-align: center;
+    margin: 50px 0;
 }
 img {
     width: 80%;
@@ -45,6 +53,7 @@ main p {
 footer p {
     font-size: 20px;
     margin: 20px auto;
+    padding: 25px;
 }
 
 a:hover {
