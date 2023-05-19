@@ -1,3 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@700&family=Staatliches&display=swap');
+
+body {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+}
+
+.home-title{
+    font-family: Staatliches, Roboto, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 .content {
     max-width: 1600px;
     margin: 0 auto;
@@ -7,6 +27,7 @@ nav a {
     text-align: center;
     color:#03045e ;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1 {
@@ -23,6 +44,10 @@ nav a {
 
 main section {
     text-align: center;
+}
+
+main section img {
+    box-sizing: border-box;
 }
 
 #background {
@@ -46,6 +71,10 @@ nav a:hover {
     background-color:#03045e;
     color: white;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -54,21 +83,30 @@ nav a:hover {
 }
 
 #background {
-    background-color:#03045e
+    background-color:#03045e;
 }
 
 .msg {
-    background-color:#48cae4
-}
-
-.msg h2, .msg p {
     background-color:#48cae4;
     color: #03045e;
+    line-height: 1.5em;
+    padding: 35px;
+}
+
+.msg h2 {
+    font-family: Staatliches, Roboto, sans-serif;
+}
+
+.msg p {
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color:#48cae4;
     color: #03045e;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -88,16 +126,31 @@ footer p a:hover {
     text-decoration: underline;
 }
 
+footer .social img {
+    padding-top: 15px;
+}
+
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero-img {
     width: 100%;
 }
 
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
 
+.card-img {
+    border:10px solid black;
+}
