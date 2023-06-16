@@ -1,0 +1,53 @@
+main {
+    
+    border-radius: 500px;
+    width: 450px;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+
+img, h4, h1, p {
+    grid-column: 1/4;
+    text-align: center;
+}
+
+img{
+    width: 450px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+}
+.background1, .background2, .background3 {
+    background-color: rgb(60, 60, 123);
+    color: white;
+    width: 150px; 
+    height: 100px;
+}
+
+.longparagraph {
+    padding: 50px;
+    width: 350px;
+    color: gray;
+}
+
+.background1 {
+    display: block;
+    float: left;
+    border-bottom-left-radius: 10px;
+}
+
+.background2 {
+    
+    display: block;
+    float: left;
+
+}
+
+.background3{
+    
+    display: block;
+    float: left;
+    border-bottom-right-radius: 10px;
+
+}
