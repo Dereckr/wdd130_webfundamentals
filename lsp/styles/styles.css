@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@700&family=Staatliches&display=swap');
+
+body {
+    font-family: Raleway, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0077b6;
+    display: grid;
+    grid-template-columns: 150px auto;
+}
+
+.logo {
+    width: 75px;
+    margin: auto;
+    justify-self: center;
+    align-self: center;
+    padding: 12px;
+    opacity: 90%;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around ;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    padding: 30px;
+}
+
+h1, h2 {
+    font-family: Staatliches, Roboto, sans-serif;
+    text-align: center;
+}
+
+main h3, p {
+    padding: 20px;
+    text-align: justify;
+}
+
+main div {
+    width: 80%;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #48cae4;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+
+/* 
+--heading-font: Staatliches, Roboto, sans-serif;
+--paragraph-font: Raleway, Helvetica, sans-serif;
+
+--primary-color: #03045e   ;
+--secondary-color: #023e8a ;
+--accent1-color: #0077b6;
+--accent2-color: #48cae4; */
