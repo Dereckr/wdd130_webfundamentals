@@ -33,13 +33,14 @@ nav a {
     padding: 30px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     font-family: Staatliches, Roboto, sans-serif;
     text-align: center;
 }
 
 main h3, p {
-    padding: 20px;
+    padding: 0 30px;
+
     text-align: justify;
 }
 
