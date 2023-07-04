@@ -63,6 +63,11 @@ footer a{
 }
 
 
+.logistics:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+  }
+
 
 /* 
 --heading-font: Staatliches, Roboto, sans-serif;
