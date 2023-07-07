@@ -68,6 +68,37 @@ footer a{
     transform: scaleX(-1);
   }
 
+section h2 {
+    text-align: left;
+    padding: 0 30px;
+  }
+
+.location {
+    padding: 0 30px;
+}
+
+.section{
+    width: 80%;
+}
+.contacts {
+    display: grid;
+    grid-template-columns: 1fr 1fr 300px 1fr;
+}
+
+section div {
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+
+section p{
+    grid-row: 2/4;
+    grid-column: 1/3;
+}
+
+.whatsapp {
+    width:30%;
+    padding: 0;
+}
 
 /* 
 --heading-font: Staatliches, Roboto, sans-serif;
