@@ -100,6 +100,30 @@ section p{
     padding: 0;
 }
 
+.achievements{
+    width: 80%;
+}
+
+.achievements img {
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+
+.faq{
+    width: 80%;
+}
+
+.faq img{
+    width: 25%;
+    height: 25%;
+    padding: 0 30px;
+}
+
+.faq h4{
+    padding: 0 30px;
+}
 /* 
 --heading-font: Staatliches, Roboto, sans-serif;
 --paragraph-font: Raleway, Helvetica, sans-serif;
